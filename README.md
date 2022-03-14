@@ -16,11 +16,9 @@ The program is invoked with the command
 
 $ MWebSiteBuilder -o=outfolder
 
-1. Binary Files are copied from the current directory to target folder(outfolder)
-
-2. Files with extensions .msym are skipped from copying to target folder
-
-3.  Any text files are parsed for symbols with @@SymbolName@@. The contents of the file SymbolName.msym replaced for @@SymbolName@@ and written to the output directory.
+- Binary Files are copied from the current directory to target folder(outfolder)
+- Files with extensions .msym are skipped from copying to target folder
+- Any text files are parsed for symbols with @@SymbolName@@. The contents of the file SymbolName.msym replaced for @@SymbolName@@ and written to the output directory.
 
 # Example 1
 
@@ -37,6 +35,7 @@ $ MWebSiteBuilder -o=outfolder
 ```</body>
 </html>```
 
+
 ### File index.htm contains:
 
 ```@@Head@@
@@ -44,6 +43,7 @@ $ MWebSiteBuilder -o=outfolder
 <emp>Hello World</emp>
 
 @@Tail@@```
+
 
 ###Output
 
