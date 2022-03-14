@@ -24,16 +24,18 @@ $ MWebSiteBuilder -o=outfolder
 
 # Example 1
 
+
 ###File Head.msym contains:
 
 ```<html>
 <head><title>This is a common  title</title></head>
-<body>'''
+<body>```
+
 
 ###File Tail.msym contains:
 
 ```</body>
-</html>'''
+</html>```
 
 ### File index.htm contains:
 
@@ -41,9 +43,10 @@ $ MWebSiteBuilder -o=outfolder
 
 <emp>Hello World</emp>
 
-@@Tail@@'''
+@@Tail@@```
 
 ###Output
+
 The thee files Tail.msym, Head.msym, and index.html are processed.  The only file that is copied to output is index.htm. The contents of the index.htm file is the following.
 
 ```<html>
@@ -53,5 +56,6 @@ The thee files Tail.msym, Head.msym, and index.html are processed.  The only fil
 <emp>Hello World</emp>
 
 </body>
-</html>'''
+</html>```
+
 
