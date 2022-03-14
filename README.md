@@ -23,7 +23,7 @@ $ MWebSiteBuilder -o=outfolder
 # Example 1
 
 
-###File Head.msym contains:
+### File Head.msym contains:
 
 ```html
 <hrml>
@@ -33,7 +33,7 @@ $ MWebSiteBuilder -o=outfolder
 ```
 
 
-###File Tail.msym contains:
+### File Tail.msym contains:
 
 ```html
 </body>
@@ -54,7 +54,7 @@ $ MWebSiteBuilder -o=outfolder
 ```
 
 
-###Output
+### Output
 
 The thee files Tail.msym, Head.msym, and index.html are processed.  The only file that is copied to output is index.htm. The contents of the index.htm file is the following.
 
