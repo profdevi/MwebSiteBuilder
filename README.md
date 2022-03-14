@@ -24,18 +24,18 @@ $ MWebSiteBuilder -o=outfolder
 
 # Example 1
 
-##File Head.msym contains:
+###File Head.msym contains:
 
-<html>
-<head><title>This is a common  title</title></head>
-<body>
+'<html>'
+'<head><title>This is a common  title</title></head>'
+'<body>'
 
-##File Tail.msym contains:
+###File Tail.msym contains:
 
-</body>
-</html>
+'</body>'
+'</html>'
 
-## File index.htm contains:
+### File index.htm contains:
 
 @@Head@@
 
@@ -43,14 +43,14 @@ $ MWebSiteBuilder -o=outfolder
 
 @@Tail@@
 
-##Output
+###Output
 The thee files Tail.msym, Head.msym, and index.html are processed.  The only file that is copied to output is index.htm. The contents of the index.htm file is the following.
 
-<html>
-<head><title>This is a common  title</title></head>
-<body>
+'<html>'
+'<head><title>This is a common  title</title></head>'
+'<body>'
 
-<emp>Hello World</emp>
+'<emp>Hello World</emp>'
 
-</body>
-</html>
+'</body>'
+'</html>'
