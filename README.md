@@ -25,24 +25,30 @@ $ MWebSiteBuilder -o=outfolder
 
 ###File Head.msym contains:
 
-```<html>
+```html
+<hrml>
 <head><title>This is a common  title</title></head>
-<body>```
+<body>
+```
 
 
 ###File Tail.msym contains:
 
-```</body>
-</html>```
+```html
+</body>
+</html>
+```
 
 
 ### File index.htm contains:
 
-```@@Head@@
+```html
+@@Head@@
 
 <emp>Hello World</emp>
 
-@@Tail@@```
+@@Tail@@
+```
 
 
 ###Output
