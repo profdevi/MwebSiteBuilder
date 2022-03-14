@@ -29,6 +29,7 @@ $ MWebSiteBuilder -o=outfolder
 <hrml>
 <head><title>This is a common  title</title></head>
 <body>
+
 ```
 
 
@@ -37,6 +38,7 @@ $ MWebSiteBuilder -o=outfolder
 ```html
 </body>
 </html>
+
 ```
 
 
@@ -48,6 +50,7 @@ $ MWebSiteBuilder -o=outfolder
 <emp>Hello World</emp>
 
 @@Tail@@
+
 ```
 
 
@@ -55,13 +58,16 @@ $ MWebSiteBuilder -o=outfolder
 
 The thee files Tail.msym, Head.msym, and index.html are processed.  The only file that is copied to output is index.htm. The contents of the index.htm file is the following.
 
-```<html>
+```html
+<html>
 <head><title>This is a common  title</title></head>
 <body>
 
 <emp>Hello World</emp>
 
 </body>
-</html>```
+</html>
+
+```
 
 
